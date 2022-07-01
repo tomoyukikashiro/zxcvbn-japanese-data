@@ -1,0 +1,26 @@
+{
+  "name": "zxcvbn-japanese-data",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
+  "description": "The japanese name and common word data which is used in zxcvbn-ts/zxcvbn",
+  "scripts": {
+    "build": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomoyukikashiro/zxcvbn-japanese-names.git"
+  },
+  "author": "Tomoyuki Kashiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomoyukikashiro/zxcvbn-japanese-names/issues"
+  },
+  "homepage": "https://github.com/tomoyukikashiro/zxcvbn-japanese-names#readme",
+  "devDependencies": {
+    "node-fetch": "^3.2.6",
+    "wanakana": "^5.0.2",
+    "yaml": "^2.1.1"
+  }
+}
